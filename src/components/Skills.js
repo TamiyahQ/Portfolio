@@ -15,7 +15,7 @@ const Skills = () => {
     return (
       <section id="skills" className="pb-32 mx-4">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-10 text-gray-800">Skills</h2>
+          <h2 className="text-3xl font-bold mb-10 text-black">Skills</h2>
           
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
             {skills.map((skill, index) => (
@@ -23,7 +23,7 @@ const Skills = () => {
                 key={index}
                 className="bg-white shadow-lg p-6 rounded-lg hover:bg-cyan-200 hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
-                <h3 className="text-2xl font-semibold text-black">{skill.name}</h3>
+                <h3 className="text-l font-semibold text-black">{skill.name}</h3>
                 <p className="text-pink-300 mt-2">{skill.level}</p>
               </div>
             ))}
