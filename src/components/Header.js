@@ -7,8 +7,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white bg-gradient-to-r from-cyan-200 text-black p-5">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4">
-           <img src="./images/logo.png" alt="Logo" className="h-10 w-10" />
-           <h1 className="text-3xl font-bold">Tamiyah Qazi</h1>
+           <img src="./images/logo.png" alt="Logo" className="h-14 w-14" />
+           <h1 className="text-xl font-bold">Tamiyah Qazi</h1>
         </div>
 
 
