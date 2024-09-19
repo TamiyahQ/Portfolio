@@ -4,11 +4,11 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white bg-gradient-to-r from-cyan-200 text-black p-5">
+    <header className="sticky top-0 z-50 bg-white bg-gradient-to-r from-cyan-200 text-black p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4">
            <img src="./images/logo.png" alt="Logo" className="h-14 w-14" />
-           <h1 className="text-xl font-bold">Tamiyah Qazi</h1>
+           <h1 className="text-2xl font-bold">Tamiyah Qazi</h1>
         </div>
 
 
