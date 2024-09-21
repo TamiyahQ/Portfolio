@@ -3,7 +3,7 @@ const Experience = () => {
       {
         role: 'Fellowship',
         company: 'Bytewise Limited',
-        duration: 'June 2024 - Present',
+        duration: 'June 2024 - September 2024',
         description:
           "I had the opportunity to dive deep into modern web development practices, focusing on React.js and Next.js. I developed proficiency in building interactive and responsive user interfaces using React, implementing best practices in state management and component-driven development. The fellowship also provided hands-on experience with Next.js, allowing me to explore server-side rendering (SSR) and static site generation (SSG).Throughout this experience, I worked on various projects and gained insights into how scalable, applications are built and deployed. This fellowship solidified my understanding of web development.",
       },
